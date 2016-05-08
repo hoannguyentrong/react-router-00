@@ -11,6 +11,7 @@ export default React.createClass({
 					<li><NavLink to='/repos/angular/01' activeClassName='active'>Angular repo</NavLink></li>
 					<li><NavLink to='/repos/react/02' activeClassName='active'>React repo</NavLink></li>
 				</ul>
+				{this.props.children} 123
 			</div>
 		);
 	}
